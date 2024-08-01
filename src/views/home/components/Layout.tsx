@@ -7,7 +7,6 @@ import Footer from "@/components/Footer";
 export default function Layout() {
   return (
     <div>
-      <div className="site-wrapper">
         <Hero />
         <section className="main-content">
           <div className="container-xl">
@@ -22,7 +21,6 @@ export default function Layout() {
           </div>
         </section>
         <Footer />
-      </div>
     </div>
   );
 }

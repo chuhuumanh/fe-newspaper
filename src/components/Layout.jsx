@@ -5,8 +5,10 @@ import Header from "./Header";
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
-      <main>{children}</main>
+      <div className="site-wrapper">
+        <Header />
+        <main>{children}</main>
+      </div>
     </>
   );
 };
